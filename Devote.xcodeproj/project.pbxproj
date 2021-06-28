@@ -17,6 +17,7 @@
 		5E58AAAE2680BED80068BE61 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E58AAAB2680BED80068BE61 /* sound-ding.mp3 */; };
 		5E58AAAF2680BED80068BE61 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E58AAAC2680BED80068BE61 /* sound-tap.mp3 */; };
 		5E5CFF382682BCD50087A140 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CFF372682BCD50087A140 /* Constant.swift */; };
+		5EB737462689566200B2F16C /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB737452689566200B2F16C /* BackgroundImageView.swift */; };
 		5ED529432686388700BFE621 /* HideKeyBoardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED529422686388700BFE621 /* HideKeyBoardExtension.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		5E58AAAB2680BED80068BE61 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		5E58AAAC2680BED80068BE61 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		5E5CFF372682BCD50087A140 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5EB737452689566200B2F16C /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		5ED529422686388700BFE621 /* HideKeyBoardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5E58AA982680BD9C0068BE61 /* ContentView.swift */,
+				5EB737452689566200B2F16C /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5ED529432686388700BFE621 /* HideKeyBoardExtension.swift in Sources */,
+				5EB737462689566200B2F16C /* BackgroundImageView.swift in Sources */,
 				5E58AAA02680BD9F0068BE61 /* Persistence.swift in Sources */,
 				5E58AA992680BD9C0068BE61 /* ContentView.swift in Sources */,
 				5E5CFF382682BCD50087A140 /* Constant.swift in Sources */,
